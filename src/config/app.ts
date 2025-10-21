@@ -1,8 +1,8 @@
+import { type KoalaConfig } from '@koala-ts/framework';
 import { HomeController } from '../controller/HomeController';
-import { type IKoalaConfig } from '@koala-ts/framework';
 
-export const appConfig: IKoalaConfig = {
-    controllers: [
-        HomeController,
-    ]
+export const appConfig: KoalaConfig = {
+  controllers: [
+    HomeController,
+  ],
 };
