@@ -1,5 +1,13 @@
 {
   "compilerOptions": {
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@Tests/*": [
+        "tests/*"
+      ]
+    },
     "esModuleInterop": true,
     "target": "ESNext",
     "allowJs": false,

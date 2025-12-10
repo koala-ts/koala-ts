@@ -1,7 +1,7 @@
+import { appConfig } from '@/config';
 import { TestAgent } from '@koala-ts/framework';
 import { createTestAgent } from '@koala-ts/framework/dist/Testing/TestAgentFactory';
 import { beforeEach, describe, test } from 'vitest';
-import { appConfig } from '../src/config';
 
 describe('Home Page', function() {
   let agent: TestAgent;
