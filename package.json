@@ -20,10 +20,11 @@
     "@koala-ts/framework": "^2.0.0"
   },
   "devDependencies": {
-    "tsc-alias": "^1.8.16",
-    "typescript": "^5.9.3",
-    "vitest": "^4.0",
+    "@types/node": "^24.10",
     "@vitest/coverage-v8": "^4.0",
-    "tsx": "^4.20.6"
+    "tsc-alias": "^1.8.16",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0"
   }
 }
